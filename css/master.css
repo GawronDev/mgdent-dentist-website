@@ -216,6 +216,9 @@ a:hover {
     bottom: 10%;
     left: 15%;
 }
+.fp-slidesNav{
+    left: 50vw!important;
+}
 
 ul span {
     background: white !important;
@@ -356,6 +359,10 @@ ul span {
         margin-top: 50px;
     }
 
+    .fp-controlArrow{
+        top: 80%!important;
+    }
+
     #fp-nav {
         display: none;
     }
@@ -409,5 +416,9 @@ ul span {
 
     .full-text-container {
         transform: translate(0, 80%);
+    }
+
+    #offer-container{
+        transform: translate(0, 30%)!important;
     }
 }
