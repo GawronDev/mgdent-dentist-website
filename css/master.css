@@ -33,6 +33,7 @@ html {
     position: fixed !important;
     right: 10px;
     top: 10px;
+    z-index: 99;
 }
 
 .nav-item {
