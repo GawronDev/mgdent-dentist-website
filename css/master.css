@@ -297,6 +297,25 @@ a:hover {
     left: 50vw !important;
 }
 
+.fp-controlArrow.fp-prev {
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(../images/left.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+    right: 0;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(../images/right.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
 ul span {
     background: white !important;
 }
@@ -483,7 +502,7 @@ ul span {
     footer {
         color: grey;
         width: 100vw;
-        height: 100%;
+        height: 75%;
         position: static;
         transform: translate(0, 0)
     }
