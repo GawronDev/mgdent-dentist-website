@@ -204,6 +204,7 @@ a:hover {
     background-size: auto 100vh !important;
     background-repeat: no-repeat !important;
     background-position: 75%;
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .team-container {
@@ -504,7 +505,7 @@ ul span {
         width: 100vw;
         height: 75%;
         position: static;
-        transform: translate(0, 0)
+        transform: translate(0, 25%)
     }
 
     .form-resp {
@@ -526,10 +527,6 @@ ul span {
         font-size: 4em !important;
     }
 
-    .offer-slide {
-        bottom: 50%
-    }
-
     .show-on-mobile {
         display: table !important;
     }
@@ -542,7 +539,13 @@ ul span {
 @media only screen and (max-width: 576px) {
     .full-container h2 {
         font-size: 4em;
-        margin-top: 50px;
+        margin-top: 10px;
+    }
+
+    .row-bg{
+        background-color: rgba(0, 0, 0, 0.8)!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
     }
 
     .fp-controlArrow {
@@ -554,7 +557,7 @@ ul span {
     }
 
     .full-text-container {
-        transform: translate(0, 60%);
+        transform: translate(0, 0%);
     }
 
     .form-resp {
@@ -592,22 +595,15 @@ ul span {
         font-size: 2.5em !important;
     }
 
-    .offer-slide {
-        margin-bottom: 50%;
-    }
-
     .offer-text-slide {
-        transform: translate(0, 20%) !important;
+        transform: translate(0, 50%) !important;
     }
 
-    .description-text {
-        background-color: rgba(0, 0, 0, 0.6);
-    }
 }
 
 @media only screen and (max-width: 501px) {
     .full-container h2 {
-        font-size: 3em;
+        font-size: 3.6em;
     }
 
     .offer-slide h2 {
@@ -617,7 +613,7 @@ ul span {
 
 @media only screen and (max-width: 404px) {
     .full-container h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .offer-slide h2 {
@@ -625,10 +621,10 @@ ul span {
     }
 
     .full-text-container {
-        transform: translate(0, 80%);
+        transform: translate(0, 100%)!important;
     }
 
     #offer-container {
-        transform: translate(0, 30%) !important;
+        transform: translate(0, 50%)!important;
     }
 }
