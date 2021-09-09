@@ -412,6 +412,43 @@ ul span {
     padding: 50px 100px;
 }
 
+.disable-animations *,
+.disable-animations *:after,
+.disable-animations *:before {
+    animation: none !important;
+}
+
+.table-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-header{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #cfb53b;
+    padding-top: 40px;
+}
+
+.table-custom{
+    border: none;
+    background-color: transparent!important;
+}
+
+.table-custom th {
+    font-weight: 300;
+}
+
+.table-custom h2 {
+    padding-top: 50px;
+}
+
+.price{
+    color: #cfb53b;
+}
+
 /*---ANIMACJE---*/
 @keyframes slideInFromLeft {
     0% {
@@ -557,7 +594,7 @@ ul span {
     }
 
     .full-text-container {
-        transform: translate(0, 0%);
+        transform: translate(0, 100%)!important;
     }
 
     .form-resp {
