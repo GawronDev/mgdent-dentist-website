@@ -16,6 +16,20 @@
 
     <script type="text/javascript" src="js/fullpage.js"></script>
 
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title"
+        content="Strona główna MGDent i implantologia, stomatologia, ortodoncja w Gorzowie Wielkopolskim">
+    <meta property="og:description"
+        content="Implantologia, stomatologia, ortodoncja w Gorzowie Wielkopolskim. Dentysta Gorzów Wielkopolski. Stomatologia Gorzów Wielkopolski.">
+    <meta property="og:image" content="https://www.mgdent.pl/images/logo/transparent-logo.png">
+    <meta property="og:url" content="https://www.mgdent.pl/">
+    <meta property="og:site_name"
+        content="Strona główna MGDent - implantologia, stomatologia, ortodoncja w Gorzowie Wielkopolskim">
+
+    <meta rel="canonical" href="https://www.mgdent.pl/contact.html">
+
     <!--MD BOOTSTRAP-->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -420,5 +434,33 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 </body>
+
+<script>
+    function validateForm() {
+        document.getElementById('status').innerHTML = "Wysyłanie...";
+        formData = {
+            'name': $('input[name=name]').val(),
+            'email': $('input[name=email]').val(),
+            'subject': $('input[name=subject]').val(),
+            'message': $('textarea[name=message]').val()
+        };
+
+
+        $.ajax({
+            url: "mail.php",
+            type: "POST",
+            data: formData,
+            success: function (data, textStatus, jqXHR) {
+
+                $('#status').text(data.message);
+                if (data.code) //If mail was sent successfully, reset the form.
+                    $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('#status').text(jqXHR);
+            }
+        });
+    }
+</script>
 
 </html>
