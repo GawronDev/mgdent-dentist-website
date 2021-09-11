@@ -23,6 +23,11 @@ html {
     right: 5px;
 }
 
+.nav-logo{
+    width: 50px;
+    padding-left: 5px;
+}
+
 .navbar-brand {
     position: fixed !important;
     left: 10px;
@@ -66,6 +71,11 @@ footer {
     background-color: black;
     min-height: 250px;
     padding: 10px 0px 25px 0px;
+}
+
+footer h1{
+    color: white;
+    border-top: 2px solid lightgrey;
 }
 
 footer a {
@@ -449,6 +459,22 @@ ul span {
     color: #cfb53b;
 }
 
+.privacy-container{
+    width: 90%;
+}
+
+.privacy-container h1{
+    color: white;
+}
+
+.privacy-container p{
+    color: white;
+}
+
+.privacy-container ul{
+    color: white;
+}
+
 /*---ANIMACJE---*/
 @keyframes slideInFromLeft {
     0% {
@@ -537,6 +563,10 @@ ul span {
         visibility: hidden !important;
     }
 
+    .privacy-container{
+        margin-top: 100px;
+    }
+
     footer {
         color: grey;
         width: 100vw;
@@ -571,6 +601,13 @@ ul span {
     .fp-controlArrow {
         top: 80% !important;
     }
+
+    .table-container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
