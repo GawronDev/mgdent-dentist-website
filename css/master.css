@@ -73,6 +73,11 @@ footer {
     padding: 10px 0px 25px 0px;
 }
 
+footer h1{
+    color: white;
+    border-top: 2px solid lightgrey;
+}
+
 footer a {
     color: white;
 }
@@ -454,6 +459,22 @@ ul span {
     color: #cfb53b;
 }
 
+.privacy-container{
+    width: 90%;
+}
+
+.privacy-container h1{
+    color: white;
+}
+
+.privacy-container p{
+    color: white;
+}
+
+.privacy-container ul{
+    color: white;
+}
+
 /*---ANIMACJE---*/
 @keyframes slideInFromLeft {
     0% {
@@ -540,6 +561,10 @@ ul span {
     .hide-on-medium-screens {
         display: none !important;
         visibility: hidden !important;
+    }
+
+    .privacy-container{
+        margin-top: 100px;
     }
 
     footer {
