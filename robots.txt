@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mgdent.com.pl/sitemap.xml
+Sitemap: https://www.mgdent.pl/sitemap.xml
