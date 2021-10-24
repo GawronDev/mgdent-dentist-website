@@ -634,6 +634,10 @@ ul span {
         transform: translate(0, 100%)!important;
     }
 
+    .exception-container {
+        transform: translate(0, 50%)!important;
+    }
+
     .form-resp {
         width: 400px !important;
     }
