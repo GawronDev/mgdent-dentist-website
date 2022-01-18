@@ -699,7 +699,7 @@ ul span {
     }
 
     .full-text-container {
-        transform: translate(0, 100%)!important;
+        transform: translate(0, 60%)!important;
     }
 
     #offer-container {
