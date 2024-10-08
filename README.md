@@ -1,11 +1,11 @@
 # MGDent Website
-Statyczna strona internetowa dla dentysty Michała Gawrońskiego z Gorzowa Wielkopolskiego, wykorzystująca bibliotekę onepage.js.
-## Realizacja
+A website made for MGDent Michał Gawroński, a dentist from Gorzów Wielkopolski, Poland. Built from scratch using HTML, CSS, JavaScript, Bootstrap 5 and Onepage.js.
+
+## Team
 - Frontend Developer: Jakub Gawroński
-- Design: Maksymilian Pacholak
-- Zdjęcia: Mateusz Szczepkowski
+- Graphic Design: Maksymilian Pacholak
+- Photos: Mateusz Szczepkowski
 
-Realizacja przez firmę [Lucky18 Studio](https://www.lucky18.com.pl)
-
-## Link do strony internetowej
-[implantsclinic.pl](https://www.implantsclinic.pl)
+## Preview
+![mgd1](https://github.com/user-attachments/assets/7c6f5b66-974e-4927-8ad9-ea236d8b2b9c)
+![mgd2](https://github.com/user-attachments/assets/5f77f27e-26ad-480b-80bc-321582fb36c2)
